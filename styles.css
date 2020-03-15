@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+header  {
+  display: flex;
+  justify-content: center;
+  font-family: "Comic Sans MS";
+}
+
+section {
+  display: flex;
+  margin: 0 10px;
+  border-bottom: 3px solid black;
+}
+
+.up {
+  border-top: 3px solid black;
+}
+
+.container {
+  width: 25%;
+  justify-content: center;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  align-items: center;
+  padding: 10px;
+}
+
+.middle {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 1.5rem;
+  padding-bottom: 5vh;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid black;
+}
+
+a {
+  width: 100%;
+  background-color: red;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-family: monospace;
+  padding-left: 10px;
+}
+
+.nav1 {
+  background-color: red;
+}
+
+.nav2 {
+  background-color: green;
+}
+
+.nav3 {
+  background-color: blue;
+}
+
+.nav4 {
+  background-color: yellow;
+}
+
+.nav5 {
+  background-color: pink;
+}
